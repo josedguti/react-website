@@ -39,7 +39,7 @@ function Cards() {
                         src='images/img-8.jpg'
                         text='Travel through the Islands of Bali in a Private Cruise'
                         label='Adrenaline'
-                        path='/signup'
+                        path='/sign-up'
                         />
                     </ul>
                 </div>
