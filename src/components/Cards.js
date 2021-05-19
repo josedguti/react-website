@@ -5,39 +5,39 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out this EPIC Destinations!</h1>
+            <h1>Our Trip to PR!</h1>
             <div className="cards_container">
                 <div className="cards_wrapper">
                     <ul className="cards_items">
                         <CardItem 
-                        src='images/img-9.jpg'
-                        text='Explore the hidden waterfall deep inside the Amazon Jungle'
+                        src='images/joma1.jpeg'
+                        text='Chulita very happy with her new fancy ring'
                         label='Adventure'
                         path='/services'
                         />
                         <CardItem 
-                        src='images/img-2.jpg'
-                        text='Travel through the Islands of Bali in a Private Cruise'
+                        src='images/joma2.jpeg'
+                        text='Getting ready to go out for a romantic dinner'
                         label='Luxury'
                         path='/services'
                         />
                     </ul>
                     <ul className="cards_items">
                         <CardItem 
-                        src='images/img-3.jpg'
-                        text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+                        src='images/joma3.jpeg'
+                        text='Enjoying the sun in PR and drinking lots of Piña Coladas'
                         label='Mystery'
                         path='/services'
                         />
                         <CardItem 
-                        src='images/img-4.jpg'
-                        text='Experience Football on Top of the Hamalayan Mountains'
+                        src='images/joma4.jpeg'
+                        text='Taking a nice picture in one of the coolest restaurants in PR'
                         label='Adventure'
                         path='/products'
                         />
                         <CardItem 
-                        src='images/img-8.jpg'
-                        text='Travel through the Islands of Bali in a Private Cruise'
+                        src='images/joma5.jpeg'
+                        text='Going in a little adventure walking thru the Yunke jungle'
                         label='Adrenaline'
                         path='/sign-up'
                         />
