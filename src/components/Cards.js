@@ -5,40 +5,66 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out this EPIC Destinations!</h1>
+            
             <div className="cards_container">
                 <div className="cards_wrapper">
                     <ul className="cards_items">
                         <CardItem 
-                        src='images/img-9.jpg'
-                        text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                        label='Adventure'
+                        src='images/3.png'
+                        text='Apprendre à courir'
+                        label='Details'
                         path='/services'
                         />
                         <CardItem 
-                        src='images/img-2.jpg'
-                        text='Travel through the Islands of Bali in a Private Cruise'
-                        label='Luxury'
+                        src='images/4.png'
+                        text='Santé - Bien être'
+                        label='Details'
                         path='/services'
+                        />
+                        <CardItem 
+                        src='images/5.png'
+                        text='Groupe 3 à 5 personnes'
+                        label='Details'
+                        path='/sign-up'
                         />
                     </ul>
                     <ul className="cards_items">
                         <CardItem 
-                        src='images/img-3.jpg'
-                        text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                        label='Mystery'
+                        src='images/8.png'
+                        text='10km'
+                        label='Details'
                         path='/services'
                         />
                         <CardItem 
-                        src='images/img-4.jpg'
-                        text='Experience Football on Top of the Hamalayan Mountains'
-                        label='Adventure'
+                        src='images/7.png'
+                        text='Semi-Marathon'
+                        label='Details'
                         path='/products'
                         />
                         <CardItem 
-                        src='images/img-8.jpg'
-                        text='Travel through the Islands of Bali in a Private Cruise'
-                        label='Adrenaline'
+                        src='images/6.png'
+                        text='Marathon'
+                        label='Details'
+                        path='/sign-up'
+                        />
+                    </ul>
+                    <ul className="cards_items">
+                        <CardItem 
+                        src='images/11.png'
+                        text='Trail -20km'
+                        label='Details'
+                        path='/services'
+                        />
+                        <CardItem 
+                        src='images/10.png'
+                        text='Trail 20 à 50km'
+                        label='Details'
+                        path='/products'
+                        />
+                        <CardItem 
+                        src='images/9.png'
+                        text='Ultra +50km'
+                        label='Details'
                         path='/sign-up'
                         />
                     </ul>

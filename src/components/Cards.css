@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 3rem;
     background: #fff;
   }
   
@@ -18,7 +18,7 @@
   
   .cards_wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 40px 0 45px;
   }
   
   .cards_items {
@@ -36,7 +36,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 8px 25px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -47,7 +47,7 @@
   .cards_item_pic-wrap {
     position: relative;
     width: 100%;
-    padding-top: 67%;
+    padding-top: 90%;
     overflow: hidden;
   }
   
@@ -60,10 +60,10 @@
     content: attr(data-category);
     position: absolute;
     bottom: 0;
-    margin-left: 10px;
-    padding: 6px 8px;
+    margin-left: 195px;
+    padding: 5px 7px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     color: #fff;
     background-color: #1f98f4;
@@ -90,13 +90,14 @@
   }
   
   .cards_item_info {
-    padding: 20px 30px 30px;
+    padding: 20px 50px 30px;
   }
   
   .cards_item_text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
   
   @media only screen and (min-width: 1200px) {
